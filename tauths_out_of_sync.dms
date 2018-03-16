@@ -1,0 +1,3 @@
+update ps_ex_tauth_hdr
+set travel_auth_status  = 'APR'
+where travel_auth_id = '0000004981'
