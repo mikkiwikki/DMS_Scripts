@@ -1,0 +1,1 @@
+delete sysadm.ps_cc_card_data where length(crdmem_acct_nbr) >16
