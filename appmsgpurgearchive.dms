@@ -1,0 +1,29 @@
+-- ****************************************************************** 
+-- ORACLE CONFIDENTIAL.  For authorized use only.  Except for as      
+-- expressly authorized by Oracle, do not disclose, copy, reproduce,  
+-- distribute, or modify.                                             
+-- ****************************************************************** 
+--                                                                    
+--  ******************************************************************
+--  ******************************************************************
+--
+--  SourceSafe Information:
+--
+--  $Header:: /pt843/SCRIPTS/BSE/AppMsgPurgeArchive.dms 9     2/1 $
+--
+--  ******************************************************************
+--  Purges the archived Application Messaging queue data.
+--  ******************************************************************
+
+SET LOG APPMSGPURGEARCHIVE.LOG;
+
+--  archive tables:
+DELETE FROM PSAPMSGARCHPH;
+DELETE FROM PSAPMSGARCHPD;
+DELETE FROM PSAPMSGARCHPC;
+DELETE FROM PSAPMSGARCHSC;
+DELETE FROM PSAPMSGARCHPT;
+DELETE FROM PSAPMSGARCHST;
+DELETE FROM PSIBLOGHDRARCH;
+DELETE FROM PSIBLOGDATAARCH;
+DELETE FROM PSIBLOGIBINFOAR;

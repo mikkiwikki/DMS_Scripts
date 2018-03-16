@@ -1,0 +1,23 @@
+-- ****************************************************************** 
+-- ORACLE CONFIDENTIAL.  For authorized use only.  Except for as      
+-- expressly authorized by Oracle, do not disclose, copy, reproduce,  
+-- distribute, or modify.                                             
+-- ****************************************************************** 
+--                                                                    
+--  ******************************************************************
+--  ******************************************************************
+--
+--  SourceSafe Information:
+--
+--  $Header:: /pt843/SCRIPTS/BSE/appdes_exp.dms 6     2/19/03 11: $
+--
+--  ******************************************************************
+--  Exports Application Designer Object definitions.
+--  ******************************************************************
+
+SET LOG APPDES_EXP.LOG;
+SET OUTPUT APPDES_EXP.DAT;
+
+EXPORT PS_APPDES_OBJ_PERM;
+EXPORT PS_APP_DES_OBJECTS;
+EXPORT PS_APP_DES_OBJ_PAR;

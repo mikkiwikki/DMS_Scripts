@@ -1,0 +1,34 @@
+-- ****************************************************************** 
+-- ORACLE CONFIDENTIAL.  For authorized use only.  Except for as      
+-- expressly authorized by Oracle, do not disclose, copy, reproduce,  
+-- distribute, or modify.                                             
+-- ****************************************************************** 
+--                                                                    
+--  ******************************************************************
+--  ******************************************************************
+--
+--  SourceSafe Information:
+--
+--  $Header:: /pt843/SCRIPTS/BSE/AEDELETE.dms 10    2/19/03 11:59 $
+--
+--  ******************************************************************
+--  Delete pre-8 tables.
+--  ******************************************************************
+
+SET LOG AEDELETE.LOG;
+
+DELETE FROM PS_AE_APPL_TBL;
+DELETE FROM PS_AE_APPL_TMP;
+DELETE FROM PS_AE_RECFIELD;
+DELETE FROM PS_AE_REQUEST;
+DELETE FROM PS_AE_REQUEST_OPT;
+DELETE FROM PS_AE_RUN_CONTROL;
+DELETE FROM PS_AE_SECTION_TBL;
+DELETE FROM PS_AE_SECTION_TMP;
+DELETE FROM PS_AE_STEP_TBL;
+DELETE FROM PS_AE_STEP_TMP;
+DELETE FROM PS_AE_STMT_B_TBL;
+DELETE FROM PS_AE_STMT_B_TMP;
+DELETE FROM PS_AE_STMT_TBL;
+DELETE FROM PS_AE_STMT_TBL_TMP;
+DELETE FROM PS_AE_STMT_TMP;
