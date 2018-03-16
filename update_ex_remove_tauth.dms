@@ -1,0 +1,14 @@
+
+update ps_ex_SHEET_HDR
+set travel_auth_id = ' '
+WHERE SHEET_ID = '0000060002';
+
+update ps_ex_SHEET_LINE
+set travel_auth_id = ' '
+WHERE SHEET_ID = '0000060002';
+
+update ps_ex_SHEET_DIST
+set travel_auth_id = ' '
+WHERE SHEET_ID = '0000060002';
+
+commit;
